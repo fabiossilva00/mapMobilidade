@@ -9,9 +9,25 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var buttonGoogleAPI: UIButton!
+    
+    @IBAction func buttonGoogleAPI(_ sender: Any) {
+        chamadaAPI()
+        
+    }
+    
+    func chamadaAPI() {
+//        APIRequest.chamadaGoogle()
+        
+//        APIClient().send(apiRequest: <#T##APIRequest#>)
+        
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        RxSwiftTeste().observableRx()
         // Do any additional setup after loading the view, typically from a nib.
     }
 
